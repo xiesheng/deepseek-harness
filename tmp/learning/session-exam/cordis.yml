@@ -1,0 +1,5 @@
+# dsh-session default-exports its SessionStore service, which claims `ctx.sessions`.
+- id: sessions
+  name: "@deepseek-ai/dsh-session"
+- id: exam
+  name: "./exam.ts"

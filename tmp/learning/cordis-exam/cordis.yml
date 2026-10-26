@@ -1,0 +1,7 @@
+# Entry order does not matter: exam.ts injects `counter`, so it waits for it.
+- id: exam
+  name: './exam.ts'
+- id: counter
+  name: './counter.ts'
+  config:
+    step: 2
